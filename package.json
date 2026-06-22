@@ -1,0 +1,25 @@
+{
+  "name": "qi-new-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --configLoader runner",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "vue-tsc -b"
+  },
+  "dependencies": {
+    "vue": "^3.5.16",
+    "vue-i18n": "^11.1.5",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10"
+  }
+}
